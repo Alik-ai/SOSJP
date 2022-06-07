@@ -1,0 +1,550 @@
+body{
+    animation-name: fondapple ;
+    animation-duration: 5s;
+    margin: 0;
+    padding: 0;
+    background-image: url(./image/fondmeilleur.png);
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+@media (max-width: 765px){
+    body{
+        background-image: url(./image/fondmeilleur.png);
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+}
+
+
+.barnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffffcb;
+    padding: 7px;
+}
+
+.imgnav{
+    width: 100px;
+}
+
+.imgnav2{
+    display: none;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    
+}
+
+.barlink{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 2px;
+}
+
+.barlink:hover{
+    color: black;
+}
+
+
+
+@media (max-width:898px){
+    
+    .imgnav{
+        display: none;
+    }
+
+    .imgnav2{
+        display: flex;
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+
+    }
+}
+
+/*Card present*/
+
+.cards1{
+    display: flex;
+    justify-content: center;
+}
+
+.card2{
+    text-align: center;
+    color: white;
+    padding: 50px;
+    background-color: black;
+    margin-top: 55px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.card21{
+    background-color: #e30613;
+    border-radius: 20px;
+}
+
+.img-card{
+    justify-content: center;
+    width: 50%;
+}
+
+.loremh{
+    margin-bottom: 30px;
+}
+
+.loremp{
+    padding: 20px;
+}
+
+.b1{
+    border: none;
+    border-radius: 5%;
+    background-color: #e30613;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.b12{
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+}
+
+
+
+/*Histoire*/
+
+.text-1{
+    text-align: center;
+    
+    
+}
+
+.title{
+    font-size: 38px;
+    line-height: 44px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.histoire{
+    font-weight: 750;
+    font-family: Nexa sans-serif;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.texte{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:Nexa sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+}
+
+.hist{
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Nexa sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+#lorem1{
+    background-color: #383838ad;
+    border-radius: 20px;
+    padding: 50px;
+    margin-top: 30px;
+    box-shadow: 0 0 5px 0 ;
+    background: inherit;
+    backdrop-filter: blur(15px);
+}
+
+#lorem2{
+    background-color: #383838ad ;
+    border-radius: 20px;
+    padding: 50px;
+    margin-top: 30px;
+    box-shadow: 0 0 5px 0;
+    background: inherit;
+    backdrop-filter: blur(15px);
+    
+}
+
+#lorem3{
+    background-color: #383838ad;
+    border-radius: 20px;
+    padding: 50px;
+    margin-top: 30px;
+    box-shadow: 0 0 5px 0 ;
+    background: inherit;
+    backdrop-filter: blur(15px);
+}
+
+#lorem4{
+    background-color: #383838ad;
+    border-radius: 20px;
+    padding: 50px;
+    margin-top: 30px;
+    box-shadow: 0 0 5px 0 ;
+    background: inherit;
+    backdrop-filter: blur(15px); 
+    
+}
+
+#lorem5{
+    background-color: #383838ad;
+    box-shadow: 0 0 5px 0 ;
+    background: inherit;
+    backdrop-filter: blur(15px); 
+}
+
+
+/*fin*/
+
+
+/*Mon Manifest*/
+
+.manif{
+    background-color: #383838ad;
+    box-shadow: 0 0 5px 0;
+    background: inherit;
+    backdrop-filter: blur(15px);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: center;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+#manif{
+    margin-bottom: 30px;
+    font-family: Nexa sans-serif;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+.texte-12{
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 10px;
+    
+}
+
+.texte-13{
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.img-man{
+    display: flex;
+    width: 42%;
+    max-width: 500px;
+    margin-top: 0px;
+    margin-right: 2%;
+    margin-left: 2%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+
+.manif-img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+/*fin*/
+
+/* Mes valeurs*/
+
+.commande{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: center;
+    background-color: #383838ad;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 0;
+    background: inherit;
+    backdrop-filter: blur(20px);
+}
+
+@media(min-width: 992px){
+    .commande{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+
+.imgcommande{
+    width: 50%;
+    
+}
+
+#imgcommande{
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:765px){
+    .imgcommande{
+        display: none;
+    }
+}
+
+
+/*fin*/
+
+
+/*block d'intervention*/
+
+
+
+.bloc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f39e9fee;
+    margin-bottom: 20px;   
+    width: 80%;
+}
+
+
+.link-inter{
+    color: black;
+    font-weight: 500;
+}
+
+.link-inter:hover{
+    color: black;
+    font-weight: 500;
+}
+
+.link-contact{
+    color: white;
+    background-color: #383838;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+.link-contact:hover{
+    color: white;
+}
+
+.text-bloc{
+    text-align: center;
+}
+
+.linkscroll{
+    display: flex;
+    justify-content: space-around;
+}
+
+#scroll_to_top {
+    display: flex;
+    justify-content: right;
+    
+}
+
+#scroll_to_top img {
+    width: 50px;
+}
+
+/*fin*/
+
+/*FAQ*/
+
+.fak{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fak h2{
+    display: flex;
+    justify-content: center;
+}
+
+.faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+}
+
+.faq-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hr-line{
+    width: 60%;
+    margin: auto;
+}
+
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    backdrop-filter: blur(15px); 
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+    font-size: 20px;
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%; 
+   padding: auto;
+   
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .faq-page:hover {
+    background-color: #F9F9F9;
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+/*fin*/
+
+
+
+/*footer*/
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    background-color: black;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 0px;
+}
+
+@media (max-width: 700px) {
+    .footer{
+        display:flex ;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+.link1{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.link2{
+    width: 44px;
+    height: 44px;
+}
+
+
+.footmenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+}
+
+@media (max-width:765px){
+    .footmenu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+    }
+}
+
+.idfoot:hover{
+    color: white;
+}
+
+.idfoot{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*fin*/
